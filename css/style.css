@@ -1,0 +1,153 @@
+body,
+h1 {
+    width: 98%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #161616;
+}
+
+ul {
+    text-align: right;
+    font-size: 30px;
+    color: #efefef;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+button {
+    border-color: blue;
+    border-radius: 2%;
+    margin-top: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+
+.column1-para {
+  font-size: 18px;
+}
+
+.column2-para {
+  font-size: 18px;
+}
+
+.column3-para {
+  font-size: 18px;
+}
+
+.column3 {
+    margin-right: 0%;
+}
+
+.article-text {
+    margin-bottom: 1em;
+    background-color: #01191e;
+    color: #efefef;
+    text-align: left;
+    font-size: 18px;
+}
+
+.article-position {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.article-contact {
+    margin-bottom: 1em;
+    background-color: #01191e;
+    color: #efefef;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("../img/image7.jpg");
+    background-position: right;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.article {
+    background-color: #01191e;
+}
+
+#content {
+    overflow: auto;
+    background-color: #01191e;
+}
+
+#nav,
+#feature,
+#footer {
+    margin: 1%;
+}
+
+#article-headline {
+    text-align: center;
+    color: #efefef;
+    font-size: 40px;
+}
+
+#nav,
+#footer {
+    padding: 0.5em 0;
+    color: #efefef;
+    text-align: center;
+}
+
+#footer {
+    background-color: #161616;
+    margin: auto;
+}
+
+#feature,
+.article {
+    height: 14em;
+    padding-top: 40px;
+    margin-bottom: 1em;
+    background-color: ;
+    text-align: center;
+    font-size: 40px;
+    color: #efefef;
+}
+
+#feature {
+    background-image: url("../img/image7.jpg");
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 40%;
+    opacity: 1.0;
+    position: relative;
+    color: #457fcc;
+    padding-top: 70px;
+}
+
+
+@media(max-width: 568px) {
+ul {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+@media(max-width: 568px) {
+.column1, .column2, .column3 {
+  display: block;
+  margin-left: 18px;
+  width: 90%;
+  align-items: center;
+}
